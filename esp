@@ -6,7 +6,7 @@ local worldToViewportPoint = CurrentCamara.worldToViewportPoint
 local HeadOFF = Vector3.new(0,0,5,0)
 local LegOFF = Vector3.new(0,3,0)
 
-for i,v in pairs(game.Players:GetChildren())) do
+for i,v in pairs(game.Players:GetChildren()) do
     local BoxOutline = Drawing.new("Square")
     BoxOutline.Visible = false
     BoxOutline.Color = color3.new(0,0,0)
